@@ -125,7 +125,7 @@ nav .fa{
 	}
 	nav .fa{
 		display: block;
-		color: #fff;
+		color: #000;
 		margin: 10px;
 		font-size: 22px;
 		cursor: pointer;
@@ -133,6 +133,7 @@ nav .fa{
 	.nav-links ul{
 		padding: 30px;
     }
+}
 	/*-----course--------*/
 
 .course{
@@ -161,13 +162,14 @@ nav .fa{
 }
 .course-col{
 	flex-basis: 31;
-	background: #fff3f3;
+	background: #BFFFF0;
 	border-radius: 10px;
 	margin-bottom: 5%;
 	padding: 20px 12px;
 	box-sizing: border-box;
 }
 h3{
+	color: #000000;
 	text-align: centre;
 	font-weight: 600;
 	margin: 10px 0;
