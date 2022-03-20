@@ -1,5 +1,3 @@
-
- 
 body{
    margin: 0;
    padding: 0;
@@ -109,35 +107,35 @@ nav .fa{
  
 @media(max-width: 700px){
    .text-box h1{
-       font-size: 25px;
+      font-size: 25px;
    }
    .nav-links ul li{
-       display: block;
+      display: block;
    }
    .nav-links{
-       position: absolute;
-       background: #47597E;
-       height: 100vh;
-       width: 200px;
-       top: 0;
-       right: -200px;
-       text-align: left;
-       z-index: 2;
-       transition: 1s;
+      position: absolute;
+      background: #47597E;
+      height: 100vh;
+      width: 200px;
+      top: 0;
+      right: -200px;
+      text-align: left;
+      z-index: 2;
+      transition: 1s;
    }
    nav .fa{
-       display: block;
-       color: #000;
-       margin: 10px;
-       font-size: 22px;
-       cursor: pointer;
+      display: block;
+      color: #000;
+      margin: 10px;
+      font-size: 22px;
+      cursor: pointer;
    }
    .nav-links ul{
-       padding: 30px;
+      padding: 30px;
    }
 }
    /*-----course--------*/
- 
+
 .course{
    width: 80%;
    margin: auto;
@@ -148,7 +146,7 @@ nav .fa{
    font-weight: 600;
    text-align: centre;
 }
- 
+
 .course p{
    color: #777;
    font-size: 14px;
@@ -180,13 +178,13 @@ h3{
 }
 @media(max-width: 700px){
    .row{
-       flex-direction: column;
+      flex-direction: column;
    }
 }
- 
- 
+
+
 /*--------- campus ------------*/
- 
+
 .campus{
    width: 80%;
    margin: auto;
@@ -231,10 +229,10 @@ h3{
    bottom: 49%;
    opacity: 1;
 }
- 
- 
+
+
 /*-----------facilities------------*/
- 
+
 .facilities{
    width: 80%;
    margin: auto;
@@ -260,10 +258,10 @@ h3{
    margin-bottom: 15px;
    text-align: center;
 }
- 
- 
+
+
 /*----------------testimonials-------------*/
- 
+
 .testimonials{
    width: 80%;
    margin: auto;
@@ -297,12 +295,12 @@ h3{
 }
 @media(max-width: 700px){
    .testimonial-col img{
-       margin-left: 0px;
-       margin-right: 15px;
+      margin-left: 0px;
+      margin-right: 15px;
    }
 }
 /*---------call to action-------------*/
- 
+
 .cta{
    margin: 100px auto;
    width: 80%;
@@ -318,52 +316,54 @@ h3{
    margin-bottom: 40px;
    padding: 0;
 }
- 
+
 @media(max-width: 700px){
    .cta h1{
-       font-size: 24px;
+      font-size: 24px;
    }
 }
 /*------------footer-----------*/
 .footer{
+   background: #5F7464;
    width: 100%;
    padding: 30px 0;
 }
 .footer h4{
+   color: #fff;
    margin-bottom: 25px;
    margin-top: 20px;
    font-weight: 600;
 }
 .footer p{
-   color: grey;
+   color: #B7CADB;
 }
 .icons .fa{
    margin: 0 13px;
    cursor: pointer;
    padding: #18px 0;
- 
+
 }
- 
+
 .fa-facebook{
    color: #3b5998;
 }
- 
+
 .fa-twitter{
    color: #00acee;
 }
- 
+
 .fa-instagram{
    color: #E4405F;
 }
- 
+
 .fa-linkedin{
    color: #0077b5;
 }
- 
+
 .fa-youtube{
    color : #FF0000;
 }
- 
+
 .fa-heart-o{
    color: #f44336;
 }
@@ -371,13 +371,14 @@ h3{
 .sub-header{
    height: 50vh;
    width: 100%;
-  
+
    background-image: url('../Image/background.jpg'), linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7));
    background-position: center;
    background-size: cover;
    text-align: center;color: #fff;
 }
 .sub-header h1{
+   font-size: 40px;
    margin-top: 100px;
 }
 .about-us{
@@ -400,7 +401,7 @@ h3{
    padding: 15px 0 25px;
 }
 .red-btn{
-   border: 1px solid #f44336;
+   border: 1px solid #0077b5;
    background: transparent;
    color: #125D98;
 }
@@ -409,7 +410,7 @@ h3{
 }
 /*------------blog content--------------*/
 
-.blog content{
+.blog-content{
    width: 80%;
    margin: auto;
    padding: 60px 0;
@@ -433,8 +434,8 @@ h3{
    flex-basis: 32%;
 
 }
-.blog-righ h3{
-   background: #f44336;
+.blog-right h3{
+   background: #712B75;
    color: #fff;
    padding: 7px 0;
    font-size: 20px;
@@ -464,4 +465,15 @@ h3{
    border: none;
    outline: none;
    background: #f0f0f0;
+}
+
+
+.comment-form button{
+   margin: 10px 0;
+}
+
+@media screen and (max-width: 768px) {
+   .sub-header h1{
+      font-size: 24px;
+   }
 }
